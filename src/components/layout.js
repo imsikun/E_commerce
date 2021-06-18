@@ -8,6 +8,7 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
+import Navbar from './Navbar'
 import Footer from './Reusable/Footer'
 
 import './bootstrap.min.css'
@@ -17,7 +18,7 @@ import './layout.css'
 const Layout = ({ children }) => (
   <>
     {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
-
+    <Navbar />
     <main>{children}</main>
     <Footer />
   </>
