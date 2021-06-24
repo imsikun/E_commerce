@@ -17,7 +17,10 @@ const IndexPage = ({ data }) => (
       heroclass='hero-background'
     />
     <Infoblock heading='About Us' />
-    <Dualinfoblock heading='Our Team' />
+    <Dualinfoblock
+      heading='Our Team'
+      imgSrc='https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+    />
   </Layout>
 )
 
