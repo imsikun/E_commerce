@@ -11,6 +11,20 @@
   justify-content: center;
   align-items: center;
 }
+.about-background {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-background {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .btn-warning {
   padding: 8px 25px;
 }
