@@ -1,3 +1,11 @@
+// require('dotenv').config({
+//   path: `.env.${process.env.NODE_ENV}`
+// })
+
+require('dotenv').config({
+  path: `env.${process.env.NODE_ENV}`
+})
+
 /**
  * Implement Gatsby's Node APIs in this file.
  *
